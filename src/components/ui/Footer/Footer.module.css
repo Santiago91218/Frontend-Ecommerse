@@ -1,0 +1,56 @@
+.footer {
+  background-color: #209288;
+  padding: 40px 20px 20px 20px;
+  font-family: "Unbounded", sans-serif;
+}
+
+.footerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-inline: auto;
+}
+
+.footerInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  text-align: left;
+  font-size: 16px;
+  color: #fff;
+}
+
+.footerLogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footerLogo img {
+  width: 140px;
+  height: auto;
+}
+
+.footerSocials {
+  display: flex;
+  gap: 20px;
+  font-size: 24px;
+  color: #fff;
+}
+
+.footerSocials svg {
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.footerSocials svg:hover {
+  transform: scale(1.2);
+}
+
+.footerCopy {
+  text-align: right;
+  font-size: 14px;
+  color: #fff;
+  margin-top: 20px;
+}
